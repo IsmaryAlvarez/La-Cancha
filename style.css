@@ -1,0 +1,59 @@
+.cancha{
+    background-color: #8ab58d;
+    width: 590px;
+    height: 380px;
+    position: relative;
+}
+
+.cancha:before{
+  content: "";
+  border: 3px solid white;
+  position: absolute;
+  top :20px;
+  left :20px;
+  display:block;
+  width: 550px;
+  height:340px;
+}
+
+.circulo{
+    position: absolute;
+    top: 145px;
+    left: 250px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.porteria{
+    position: absolute;
+    height: 140px;
+    width: 80px;
+    top: 120px;
+    border: 3px solid white;
+}
+
+.left .porteria{
+    left: 20px;
+    border-left: 0;
+}
+.pelotauno  { 
+  position: absolute;
+  float: left ; 
+  margin: 120px 85px;
+   }
+.pelotados  { 
+  position: absolute;
+  float: right; ; 
+  margin: 60px 270px;
+   }
+.pelotatres  { 
+  position: absolute;
+  margin: 220px 460px;
+   }
+.right .porteria{
+    right: 17px;
+    border-right: 0;
+}
+
